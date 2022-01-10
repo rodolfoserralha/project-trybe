@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+body header h1 {
+  margin: 10px;
+  text-align: center;
+  position: fixed;
+  top: 35%;
+  left: 33%;
+  color: #2a4a41;
+}
+
+body {
+  font-family: 'Montserrat';
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1505744386214-51dba16a26fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1006&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transform: scale();
+}
+
+body main {
+  text-align: center;
+  align-content: center;
+  position: fixed;
+  top: 40%;
+  left: 25%;
+  color: #2a4a41;
+}
+
+body main #botoes {
+  margin: 10px;
+}
+
+body main #funcionamento {
+  margin: 15px;
+}
+
+body main #lista-tarefas {
+  margin-top: 10px;
+  text-align: none !important;
+}
+
+body main #texto-tarefa{
+  width: 150px;
+  height: 22px;
+  background-color: #ffffff14;
+  color: #2a4a41;
+  font-family: 'Montserrat';
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+}
+
+button {
+  color: #fff !important;
+	text-decoration: none;
+	background: #2a4a41;
+	padding: 6px;
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+  font-family: 'Montserrat';
+}
+
+button:hover {
+	background: #41af62;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+main #div-ol {
+  display: flex;
+  justify-content: center;
+}
