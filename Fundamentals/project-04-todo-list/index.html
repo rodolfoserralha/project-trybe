@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <title>Todo List</title>
+</head>
+<body>
+  <header>
+    <h1>Minha Lista de Tarefas</h1>
+  </header>
+  <main>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <label for="texto-tarefa"></label>
+    <input type="text" name="texto-tarefa" id="texto-tarefa" placeholder="Digite a tarefa">
+    <button id="criar-tarefa">Criar Tarefa</button>
+    <div id="div-ol">
+      <ol id="lista-tarefas"></ol>
+    </div>
+    <div id="botoes">
+      <button id="remover-finalizados">Remover Finalizado</button>
+      <button id="remover-selecionado">Remover Selecionado</button>
+      <button id="mover-cima"><i class="fas fa-angle-up"></i></button>
+      <button id="mover-baixo"><i class="fas fa-angle-down"></i></button>
+      <button id="salvar-tarefas">Salvar Tarefas</button>
+      <button id="apaga-tudo">Apaga Tudo</button>
+    </div>
+  </main> 
+</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/5365b06cfd.js" crossorigin="anonymous"></script>
+</html>
