@@ -1,0 +1,145 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  color: white;
+  width: 150px;
+}
+
+#page-search {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0px;
+  width: 100%;
+}
+
+#login-father {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+#left-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+}
+
+#right-container {
+  align-items: center;
+  background-color: rgb(22, 77, 25);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 50%;
+}
+
+.inputs {
+  border: 1px solid;
+  border-radius: 6px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  margin-right: 5px;
+  padding: 4px 8px;
+  line-height: 25px;
+}
+
+.btns {
+  border: 1px solid;
+  border-radius: 6px;
+  font-family: inherit;
+  height: 34px;
+  width: 100px;
+}
+
+header {
+  align-items: center;
+  background-color: rgb(22, 77, 25);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+
+#search-form {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+#card-container {
+  align-items: center;
+  /* background-color: yellowgreen; */
+  box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  justify-content: space-evenly;
+  text-align: center;
+  text-decoration: none;
+  width: 300px;
+}
+
+.card-img {
+  border-width: 0;
+  width: 100%;
+}
+
+#cards-container {
+  /* background-color: yellow; */
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 100%;
+}
+
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 1; 
+  -webkit-box-orient: vertical;
+  text-decoration: none;
+}
+
+#album-result {
+  text-align: center;
+  width: 100%;
+}
+
+
+
