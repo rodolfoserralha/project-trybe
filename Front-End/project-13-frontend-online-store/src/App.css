@@ -1,0 +1,10 @@
+.categories {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 10px;
+  width: 25%;
+}
+
+.products-and-categories {
+  display: flex;
+}

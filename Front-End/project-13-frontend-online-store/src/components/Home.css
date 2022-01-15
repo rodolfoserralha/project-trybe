@@ -1,0 +1,23 @@
+* {
+  background-color: rgba(241, 243, 244);
+  margin: 2px;
+}
+
+.shopping-cart-button:hover {
+  background-color: rgb(201, 56, 56);
+  font-weight: 300;
+}
+
+h4 {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  text-align: justify;
+}
+
+img {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  width: 150px;
+}
