@@ -1,0 +1,16 @@
+.card {
+  align-self: center;
+  background-color: #036b52;
+  border: 6px solid #fefefe;
+  border-radius: 5px;
+  height: 250px;
+  margin-top: 120px;
+  width: 180px;
+}
+
+.card h1 {
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: end;
+}
