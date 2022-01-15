@@ -1,0 +1,19 @@
+.ranking {
+  text-align: center;
+}
+
+.player-ranking {
+  align-items: center;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 100px;
+}
+
+.player-ranking img {
+  margin-left: 10px;
+}
+
+.player-ranking h3 {
+  margin-right: 10px;
+}
