@@ -1,0 +1,67 @@
+.correct-answer {
+  border: 3px solid rgb(6, 240, 15);
+}
+
+.incorrect-answer {
+  border: 3px solid red;
+}
+
+.father-login {
+
+  /* width: 100%;
+   height: 750px;
+   display: table;
+  height: 100%;
+  background-color: #a5a3a3; */
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* .teste {
+  display: table-cell;
+  vertical-align: middle;
+} */
+
+.login-page {
+  background-color: rgb(97, 100, 99);
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-around;
+  margin-top: 2%;
+  text-align: center;
+  width: 300px;
+}
+
+.inputs {
+  border-radius: 2px;
+  margin-top: 0;
+  padding: 0;
+  width: 176px;
+}
+
+.login-page button {
+  align-self: center;
+  width: 100px;
+}
+
+/* #your-turm {
+  color: rgb(15, 216, 25);
+  height: 10px;
+} */
+
+.login-trivia-img {
+  margin-top: 2%;
+  width: 50%;
+}
+
+span {
+  color: white;
+}
